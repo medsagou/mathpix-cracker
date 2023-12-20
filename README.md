@@ -125,7 +125,7 @@ Please note that you need to repeat this process after every 3 accounts. We will
 
 ![Prompt Image](https://raw.githubusercontent.com/omkarcloud/outlook-account-generator/master/images/prompt-image.png)
 
-### ❓ Can We Solve Captchas Automatically, as Manually Solving Them Is Really Exhausting?
+<!-- ### ❓ Can We Solve Captchas Automatically, as Manually Solving Them Is Really Exhausting?
 
 Yes, you can use Captcha Solvers like CapSolver to automatically solve captchas, saving yourself time and effort.
 
@@ -164,7 +164,7 @@ Also, Special thanks to [Diego](https://github.com/diegoooooooooooooooo) for int
 
 Diego is an expert in Web Scraping. If you have a web scraping project that you want to be delivered professionally, you can contact him on his Telegram [here](https://t.me/darkofa).
 
-
+ -->
 ### ❓ How to View All Created Accounts?
 
 You can view the accounts you have created in **`profiles.json`**.
