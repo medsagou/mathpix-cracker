@@ -1,3 +1,5 @@
+import time
+
 from botasaurus.decorators_utils import create_directory_if_not_exists
 import traceback
 from botasaurus import *
@@ -162,6 +164,9 @@ def create_accounts(driver: AntiDetectDriver, data):
             bt.Profile.profile = prevprofile
 
             print(f"Created Account for {username}")
+            # driver.find_element()
+            print("here")
+            time.sleep(2000)
             return account
 
         except Exception:

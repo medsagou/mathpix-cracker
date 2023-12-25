@@ -1,1 +1,98 @@
-{}
+{
+    "filippapetersen1975": {
+        "id": 1,
+        "name": "Filippa Petersen",
+        "first_name": "Filippa",
+        "last_name": "Petersen",
+        "username": "filippapetersen1975",
+        "email": "filippapetersen1975@outlook.com",
+        "password": "bigblueC3?",
+        "uuid": "4c2b1673-c96b-45bb-8c23-d38c7a915435",
+        "profile_picture": "https://randomuser.me/api/portraits/women/46.jpg",
+        "phone": "66132232",
+        "address": "1182, Jyllandsgade, K\u00f8benhavn Sv, Hovedstaden, Denmark",
+        "gender": "female",
+        "country": "MA",
+        "dob": {
+            "year": 1975,
+            "month": 8,
+            "day": 10,
+            "date": "1975-08-10T03:24:41.364Z",
+            "age": 48
+        },
+        "created_at": "2023-12-25 21:59:43",
+        "updated_at": "2023-12-25 21:59:43"
+    },
+    "florenciatorres1997": {
+        "id": 1,
+        "name": "Florencia Torres",
+        "first_name": "Florencia",
+        "last_name": "Torres",
+        "username": "florenciatorres1997",
+        "email": "florenciatorres1997@outlook.com",
+        "password": "blackjacK7$",
+        "uuid": "6ef60060-bfab-4150-a62d-d3ecb64bd72c",
+        "profile_picture": "https://randomuser.me/api/portraits/women/69.jpg",
+        "phone": "(642) 684 1763",
+        "address": "533, Andador Colima, La Antigua, Baja California, Mexico",
+        "gender": "female",
+        "country": "MA",
+        "dob": {
+            "year": 1997,
+            "month": 1,
+            "day": 28,
+            "date": "1997-01-28T10:27:28.732Z",
+            "age": 26
+        },
+        "created_at": "2023-12-25 22:16:00",
+        "updated_at": "2023-12-25 22:16:00"
+    },
+    "alexiszhang1980": {
+        "id": 1,
+        "name": "Alexis Zhang",
+        "first_name": "Alexis",
+        "last_name": "Zhang",
+        "username": "alexiszhang1980",
+        "email": "alexiszhang1980@outlook.com",
+        "password": "dharmaG^5",
+        "uuid": "0f411f47-d414-4221-ab4a-9d9ddec5549f",
+        "profile_picture": "https://randomuser.me/api/portraits/women/81.jpg",
+        "phone": "(973)-326-9058",
+        "address": "828, Worcester Street, Hastings, Nelson, New Zealand",
+        "gender": "female",
+        "country": "MA",
+        "dob": {
+            "year": 1980,
+            "month": 2,
+            "day": 5,
+            "date": "1980-02-05T21:38:25.442Z",
+            "age": 43
+        },
+        "created_at": "2023-12-25 23:42:58",
+        "updated_at": "2023-12-25 23:42:58"
+    },
+    "oliverchristensen1961": {
+        "id": 1,
+        "name": "Oliver Christensen",
+        "first_name": "Oliver",
+        "last_name": "Christensen",
+        "username": "oliverchristensen1961",
+        "email": "oliverchristensen1961@outlook.com",
+        "password": "1215s,A1",
+        "uuid": "b19afcb6-01b0-4c8b-9009-4435f711042b",
+        "profile_picture": "https://randomuser.me/api/portraits/men/33.jpg",
+        "phone": "94000217",
+        "address": "6427, \u00d8stervej, St.Merl\u00f8se, Sj\u00e6lland, Denmark",
+        "gender": "male",
+        "country": "LU",
+        "dob": {
+            "year": 1961,
+            "month": 9,
+            "day": 7,
+            "date": "1961-09-07T23:43:28.482Z",
+            "age": 62
+        },
+        "created_at": "2023-12-26 00:39:52",
+        "updated_at": "2023-12-26 00:39:52"
+    }
+}
