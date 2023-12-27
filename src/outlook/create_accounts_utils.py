@@ -376,6 +376,7 @@ def create_user(proxy):
             # config['number_of_accounts_to_generate']
             account = bt.generate_user(number_of_accounts_to_generate, country=country_code)
             account['country'] = country_code
+            account['password'] += "@"
             return account        
 
 def is_bot_detected(driver):

@@ -4,6 +4,7 @@ from botasaurus.decorators_utils import create_directory_if_not_exists
 import traceback
 from botasaurus import *
 from .create_accounts_utils import *
+from .Interaction import VotesGenerator
             
 
 def createTempProfile(username, cookies):
@@ -164,9 +165,10 @@ def create_accounts(driver: AntiDetectDriver, data):
             bt.Profile.profile = prevprofile
 
             print(f"Created Account for {username}")
-            # driver.find_element()
-            print("here")
-            time.sleep(2000)
+            v = VotesGenerator()
+            v.main(driver=driver,email=account['email'], password=account['password'])
+            print(account['email'] + ":" + account['password'])
+            print("done")
             return account
 
         except Exception:
