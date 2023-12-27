@@ -1,6 +1,7 @@
 import random
 import time
 import os
+from datetime import datetime
 
 from selenium import  webdriver
 from selenium.webdriver.common.by import By
@@ -275,7 +276,7 @@ class VotesGenerator:
                     self.driver.get(href_value)
                     print("saving account: " + str(email) + ":" + str(password))
                     with open("account.txt", 'a') as f:
-                        f.write(str(email) + ":" + str(password))
+                        f.write(str(email) + ":" + str(password) + ":" + str(datetime.now().strftime("%d-%m-%Y")))
                         f.write("\n")
                     print("account saved")
                     print("We have clicked on verification link")
@@ -293,5 +294,5 @@ class VotesGenerator:
     # end of class
 
 if __name__ == "__main__":
-
-    print('done')
+    current_date = datetime.now().strftime("%d-%m-%Y")
+    print(current_date)
