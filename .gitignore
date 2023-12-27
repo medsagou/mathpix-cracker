@@ -111,3 +111,4 @@ temp/
 error_logs/
 cache/
 profiles.json
+*.txt

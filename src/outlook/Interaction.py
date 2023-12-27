@@ -279,6 +279,7 @@ class VotesGenerator:
                         f.write("\n")
                     print("account saved")
                     print("We have clicked on verification link")
+                    time.sleep(3)
                     exit()
 
         except Exception as e:

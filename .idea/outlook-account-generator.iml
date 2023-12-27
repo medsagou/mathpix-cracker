@@ -2,7 +2,13 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/env" />
+      <excludeFolder url="file://$MODULE_DIR$/error_logs" />
       <excludeFolder url="file://$MODULE_DIR$/myvenv" />
+      <excludeFolder url="file://$MODULE_DIR$/profiles" />
+      <excludeFolder url="file://$MODULE_DIR$/src/outlook/profiles" />
+      <excludeFolder url="file://$MODULE_DIR$/src/outlook/tasks" />
+      <excludeFolder url="file://$MODULE_DIR$/tasks" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
