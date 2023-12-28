@@ -274,6 +274,17 @@ class VotesGenerator:
                     href_value = element.get_attribute("href")
                     print(href_value)
                     self.driver.get(href_value)
+                    while True:
+                        try:
+                            success_element = WebDriverWait(driver, 10).until(
+                                EC.presence_of_element_located((By.XPATH,
+                                                                "/html/body/div[2]/section/section/div/div/div/div[2]/div/div/h2[text()='Success!']"))
+                            )
+                            print("Success found!")
+                            break  # Break out of the loop since success is found
+                        except:
+                            print("Refreshing the page...")
+                            self.driver.refresh()
                     print("saving account: " + str(email) + ":" + str(password))
                     with open("account.txt", 'a') as f:
                         f.write(str(email) + ":" + str(password) + ":" + str(datetime.now().strftime("%d-%m-%Y")))

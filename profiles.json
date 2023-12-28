@@ -598,5 +598,29 @@
         },
         "created_at": "2023-12-27 23:55:35",
         "updated_at": "2023-12-27 23:55:35"
+    },
+    "emilychristensen1954": {
+        "id": 1,
+        "name": "Emily Christensen",
+        "first_name": "Emily",
+        "last_name": "Christensen",
+        "username": "emilychristensen1954",
+        "email": "emilychristensen1954@outlook.com",
+        "password": "sparrow8@V@",
+        "uuid": "407f437a-3576-49b9-b2d3-372f9d572d6c",
+        "profile_picture": "https://randomuser.me/api/portraits/women/58.jpg",
+        "phone": "83418375",
+        "address": "2588, F\u00e6lledvej, K\u00f8benhavn \u00d8, Sj\u00e6lland, Denmark",
+        "gender": "female",
+        "country": "MA",
+        "dob": {
+            "year": 1954,
+            "month": 3,
+            "day": 27,
+            "date": "1954-03-27T14:31:55.603Z",
+            "age": 69
+        },
+        "created_at": "2023-12-28 14:59:43",
+        "updated_at": "2023-12-28 14:59:43"
     }
 }
